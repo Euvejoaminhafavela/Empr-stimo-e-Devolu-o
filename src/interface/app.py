@@ -56,7 +56,7 @@ def index():
 
 @app.route("/emprestimos")
 def emprestimos():
-    return render_template("emprestimos.html")
+    return render_template("emprestimo.html")
 
 
 @app.route("/devolucoes")
